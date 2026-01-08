@@ -1,7 +1,7 @@
 {
   "rewrites": [
     {
-      "source": "/cht/:path*",
+      "source": "/ctb/:path*",
       "destination": "https://chaturbate.com/:path*"
     }
   ]

@@ -24,10 +24,10 @@ export default defineConfig({
     host: true,
     port: 5174,
     proxy: {
-      '/cht': {
+      '/ctb': {
         target: 'https://chaturbate.com',
         changeOrigin: true,
-        rewrite: (path) => path.replace(/^\/cht/, '')
+        rewrite: (path) => path.replace(/^\/ctb/, '')
       },
     }
   }

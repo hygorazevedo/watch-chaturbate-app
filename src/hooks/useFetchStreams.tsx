@@ -15,7 +15,7 @@ interface Stream {
 
 function createRequest(category: string, page: number): FetchStreamsRequest {
   return {
-    url: `/cht/api/ts/roomlist/room-list/?${category !== '' && category !== 'follow' ? `genders=${category}&` :  category === 'follow' ? 'follow=true&' : '' }limit=90&offset=${page}`,
+    url: `/ctb/api/ts/roomlist/room-list/?${category !== '' && category !== 'follow' ? `genders=${category}&` :  category === 'follow' ? 'follow=true&' : '' }limit=90&offset=${page}`,
     options: {
       method: "GET",
       headers: {
