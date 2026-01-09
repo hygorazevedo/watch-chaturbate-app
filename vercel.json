@@ -1,8 +1,0 @@
-{
-  "rewrites": [
-    {
-      "source": "/cht/:path*",
-      "destination": "https://chaturbate.com/:path*"
-    }
-  ]
-}
