@@ -1,5 +1,0 @@
-[[redirects]]
-  from = "/cht/*"
-  to = "https://chaturbate.com/:splat"
-  status = 200
-  force = true
