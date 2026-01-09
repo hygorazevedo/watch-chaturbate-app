@@ -20,7 +20,7 @@ export function useRetreaveStream(username: string) {
 
       try {
         const response = await fetch(
-          `/cht/api/chatvideocontext/${username}`,
+          `cht/api/chatvideocontext/${username}/`,
           {
             headers: {
               "accept": "*/*",
