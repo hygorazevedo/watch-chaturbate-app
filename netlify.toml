@@ -1,5 +1,5 @@
 [[redirects]]
-  from = "/cht"
-  to = "https://chaturbate.com"
-  status = 200
-  force = true # COMMENT: ensure that we always redirect
+from = "/cht"
+to = "https://chaturbate.com"
+status = 200
+force = true # COMMENT: ensure that we always redirect
