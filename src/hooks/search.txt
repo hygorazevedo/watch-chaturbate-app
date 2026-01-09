@@ -1,0 +1,25 @@
+fetch("https://pt.chaturbate.com/ax/search/?keywords=madison_medina", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "pt-BR,pt;q=0.9",
+    "cache-control": "no-cache",
+    "newrelic": "eyJ2IjpbMCwxXSwiZCI6eyJ0eSI6IkJyb3dzZXIiLCJhYyI6IjE0MTg5OTciLCJhcCI6IjI0NTA2NzUwIiwiaWQiOiJiYjYwMjkyYThjMmY0ZDBlIiwidHIiOiI1ODBmZTkyZWQ2N2E3ODY2ZDcyZDdjNGVjOGYwMjYzYiIsInRpIjoxNzY3OTg0NTc4MTA1fX0=",
+    "pragma": "no-cache",
+    "priority": "u=1, i",
+    "sec-ch-ua": "\"Microsoft Edge\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "traceparent": "00-580fe92ed67a7866d72d7c4ec8f0263b-bb60292a8c2f4d0e-01",
+    "tracestate": "1418997@nr=0-1-1418997-24506750-bb60292a8c2f4d0e----1767984578105",
+    "x-newrelic-id": "VQIGWV9aDxACUFNVDgMEUw==",
+    "x-requested-with": "XMLHttpRequest"
+  },
+  "referrer": "https://pt.chaturbate.com/",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+});

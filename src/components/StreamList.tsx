@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import useFetchStreams from "../hooks/useFetchStreams";
 import { useState } from "react";
+import SearchStreams from "./SearchStreams";
 
 const categories = [
     { descritiopn: 'Featured', value: '' },
@@ -22,6 +23,9 @@ const StreamList: React.FC = () => {
                     </li>
                 ))}
             </ul>
+
+            <SearchStreams />
+
             <div>
             {streams.map((stream, index) => (
                 <Link key={index} to={stream.display}>

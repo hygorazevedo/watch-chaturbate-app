@@ -29,6 +29,10 @@ export default defineConfig({
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/cht/, ''),
       },
+      '/ax': {
+        target: 'https://pt.chaturbate.com',
+        changeOrigin: true,
+      },
     }
   }
 })
